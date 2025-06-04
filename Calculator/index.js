@@ -79,6 +79,6 @@ server.use((err, req, res, next) => {
 });
 
 server.listen(SERVER_PORT, () => {
-    console.log(`📊 Number Window Calculator Service running on port ${SERVER_PORT}`);
-    console.log(`🌐 Access at: http://localhost:${SERVER_PORT}/numbers/p`);
+    console.log(`Number Window Calculator Service running on port ${SERVER_PORT}`);
+    console.log(`Access at: http://localhost:${SERVER_PORT}/numbers/p`);
 });
