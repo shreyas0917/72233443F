@@ -1,0 +1,26 @@
+POST http://20.244.56.144/evaluation-service/register
+Content-Type: application/json
+
+{
+  "email": "shreyaswani04@gmail.com",
+  "name": "Shreyas Wani",
+  "mobileNo": "7057969410",
+  "githubUsername": "shreyas0917",
+  "rollNo": "72233443F",
+  "collegeName": "Dr. D Y Patil Institute of Technology , Pimpri ",
+  "accessCode": "KRjUUU"
+}
+
+### Get Authorization Token
+POST http://20.244.56.144/evaluation-service/auth
+Content-Type: application/json
+
+{
+  "email": "shreyaswani04@gmail.com",
+  "name": "shreyas Wani",
+  "rollNo": "72233443F",
+  "accessCode": "KRjUUU",
+  "clientID": "cbf36933-4b4d-4acb-ae80-07e443f02ac9",
+  "clientSecret": "KpjpjzWNnKFzRrcH"
+}
+
